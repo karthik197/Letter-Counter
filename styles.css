@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: #ff3d3d;
+}
+.container{
+    position: relative;
+    text-align: center;
+    top: 100px;
+}
+#head{
+    color: #111;
+    font-family: fantasy;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+input{
+    width: 200px;
+    height: 25px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+}
+input:focus{
+    border: 2px solid #111;
+}
+p{
+    color: #fff;
+}
